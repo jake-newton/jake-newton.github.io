@@ -26,6 +26,14 @@ nav {
 nav li {
    display: inline;
 }
+nav li a {
+   text-decoration: none;
+   text-transform: uppercase;
+   font-weight: bold;
+   font-size: larger;
+   background-color: rgb(144, 227, 238);
+   padding: 10px 20px;
+}
 section {
 text-align: center;
 padding: 20px;
@@ -80,4 +88,10 @@ text-decoration: none;
    display: flex;
    flex-direction: row;
    justify-content: space-between;
+}
+a:hover {
+   color: gray; 
+}  
+a:active {
+   color: purple;
 }
