@@ -1,0 +1,118 @@
+header {
+   display: flex;
+   flex-direction: column;
+   background-color: lightsteelblue;
+   padding: 8px;
+}
+
+.logo-banner {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+.main-page {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+   gap: 10px;
+}
+
+div {
+   padding: 6px;
+}
+
+body {
+   margin: 0;
+   font-family: Helvetica, sans-serif;
+   background-color: lightsteelblue;
+}
+
+footer {
+   display: flex;
+   background-color: lightsteelblue;
+   justify-content: right;
+}
+
+table img {
+   max-height: 400px;
+   max-width: 400px;
+}
+
+nav {
+   text-align: center;
+   justify-content: space-between;
+   margin: 10px;
+}
+
+nav li {
+   display: inline;
+}
+
+nav li a {
+   text-decoration: none;
+   text-transform: uppercase;
+   font-weight: bold;
+   font-size: larger;
+   background-color: lightgreen;
+   padding: 10px 20px;
+}
+
+#popup {
+   display: none;
+   border: solid red 1px;
+   background-color: lightgreen;
+   text-align: center;
+   max-width: 300px;
+   max-height: 200px;
+}
+
+table {
+   padding: 6px;
+   text-align: center;
+}
+
+table tr th{
+   background-color: aliceblue;
+   border: solid rebeccapurple 2px ;
+   min-width: 200px;
+   min-height: 600px;
+   max-width: 600px;
+   max-height: 600px;
+   text-align: center;
+}
+
+label {
+   display: inline-block;
+   width: 100px;
+}
+
+input, textarea {
+   width: 300px;
+   padding: 10px;
+}
+input[type="submit"] {
+   width: auto;
+}
+.required::after {
+   content: "*";
+   color: red;
+}
+label+input {
+   background-color: rgb(219,241,248);
+}
+
+.required::after {
+   content: "*";
+   color: red;
+}
+
+a:hover {
+   color: gray; 
+}  
+
+a:active {
+   color: purple;
+}
