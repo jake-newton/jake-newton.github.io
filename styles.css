@@ -1,7 +1,7 @@
 header {
    display: flex;
    flex-direction: column;
-   background-color: lightsteelblue;
+   background-color: rgb(237, 239, 241);
    padding: 8px;
 }
 
@@ -27,12 +27,12 @@ div {
 body {
    margin: 0;
    font-family: Helvetica, sans-serif;
-   background-color: lightsteelblue;
+   background-color: rgb(237, 239, 241);
 }
 
 footer {
    display: flex;
-   background-color: lightsteelblue;
+   background-color: rgb(237, 239, 241);
    justify-content: right;
 }
 
