@@ -1,93 +1,76 @@
 body {
-background-color: white;
-font-family: Arial, sans-serif;
-margin: 0;
-padding: 0;
+   background-color: white;
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0;
 }
 header {
-background-color: #001f3f;
-color: white;
-display: flex;
-flex-direction: column;
-padding: 8px;
+   background-color: #001f3f;
+   color: white;
+   text-align: center;
+   padding: 20px;
+   width: 100%;
 }
 header h1 {
-margin: 0;
-font-size: 48px;
+   margin: 0;
+   font-size: 48px;
 }
 header p {
-font-size: 24px;
-}
-nav {
-   text-align: center;
-   justify-content: space-between;
-   margin: 10px;
-}
-nav li {
-   display: inline;
-}
-nav li a {
-   text-decoration: none;
-   text-transform: uppercase;
-   font-weight: bold;
-   font-size: larger;
-   background-color: rgb(144, 227, 238);
-   padding: 10px 20px;
+   font-size: 24px;
 }
 section {
-text-align: center;
-padding: 20px;
+   text-align: center;
+   padding: 10px;
 }
-.intro img {
-width: 200px;
-border-radius: 50%;
-margin-top: 20px;
+header img {
+   width: 200px;
+   border-radius: 50%;
+}
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex-grow: 1;
 }
 .tiles {
-display: flex;
-justify-content: space-around;
-flex-wrap: wrap;
-margin-top: 30px;
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
 }
 .tile {
-background-color: #001f3f;
-color: white;
-width: 30%;
-margin: 10px;
-padding: 20px;
-border-radius: 10px;
-box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-transition: transform 0.2s;
+   background-color: #001f3f;
+   color: white;
+   width: 30%;
+   margin: 10px;
+   padding: 20px;
+   border-radius: 10px;
+   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+   transition: transform 0.2s;
 }
 .tile:hover {
-transform: scale(1.05);
+   transform: scale(1.05);
 }
 .tile img {
-width: 100%;
-height: auto;
-border-radius: 10px;
+   padding: 5px;
+   width: 150px;
 }
 .tile p {
-margin-top: 10px;
-font-size: 18px;
+   margin-top: 10px;
+   font-size: 18px;
 }
 footer {
-background-color: #001f3f;
-color: white;
-text-align: center;
-padding: 20px;
-position: fixed;
-width: 100%;
-bottom: 0;
+   background-color: #001f3f;
+   color: white;
+   text-align: center;
+   padding: 10px;
+   width: 100%;
 }
 footer a {
-color: #7FDBFF;
-text-decoration: none;
-}
-.logo-banner {
-   display: flex;
-   flex-direction: row;
-   justify-content: space-between;
+   color: #7FDBFF;
+   text-decoration: none;
 }
 a:hover {
    color: gray; 
