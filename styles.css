@@ -77,12 +77,6 @@ footer a {
    color: #7FDBFF;
    text-decoration: none;
 }
-a:hover {
-   color: gray; 
-}  
-a:active {
-   color: purple;
-}
 ul {
    display: flex;
    justify-content: space-around;
@@ -128,3 +122,20 @@ ul li:hover::before {
 ul li:hover::after {
    transform: translateX(15%);
 }
+a:link {
+   color:white;
+   text-decoration: none;
+ }
+ 
+ a:visited {
+   color:white;
+   text-decoration: none;
+ }
+ 
+ a:hover {
+   text-decoration: underline;
+ }
+ 
+ a:active {
+   text-decoration: underline;
+ }
